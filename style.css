@@ -1,25 +1,45 @@
-.search-container{
-    margin-top: 10px;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size:18px;
+    background-color: white;
+}
+
+.navbar .container-fluid {
+    padding: 0 100px;
+}
+.navbarBrand{
+    width:60px;
+}
+.cooking-master{
+    color:#3B2D64;
+    font-weight: 700;
+    font-size:24px;
+}
+
+.search{
+    margin-top:10%;
+}
+.btn-search{
+    width: 100px;
+    background-color:rgb(82, 120, 235);
+    color:#FFFFFF;
+    margin-left: 10px;
+}
+.btn-search:hover{
+    background-color: royalblue;
+    color:#FFFFFF;
 }
 input{
-    width: 500px;
-}
-
-#search-btn{
-    width: 100px;
-    background-color: royalblue;
-    color: white;
-    font-size:15px;
-
-    border: none;
-    border-radius:5px;
+    width: 350px;
     padding: 5px;
-    margin-left: 5px;
-
+    border-radius: 5px;
+    border: 1px solid royalblue;
 }
-
-#item-card{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 30px;
+#meal-details{
+    display: none;
 }
