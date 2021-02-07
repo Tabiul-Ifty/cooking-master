@@ -1,0 +1,19 @@
+.search-container{
+    margin-top: 10px;
+}
+input{
+    width: 500px;
+}
+
+#search-btn{
+    width: 100px;
+    background-color: royalblue;
+    color: white;
+    font-size:15px;
+
+    border: none;
+    border-radius:5px;
+    padding: 5px;
+    margin-left: 5px;
+
+}
